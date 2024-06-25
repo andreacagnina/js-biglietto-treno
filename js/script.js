@@ -27,4 +27,4 @@ let discountValue = euroTicket * discount / 100;
 let discountedTicket = euroTicket - discountValue
 console.log(discountedTicket)
 
-document.getElementById('ticketCost').innerHTML = ' '
+document.getElementById('ticketCost').innerHTML = discountedTicket;
