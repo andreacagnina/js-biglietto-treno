@@ -27,4 +27,4 @@ let discountValue = euroTicket * discount / 100;
 let discountedTicket = euroTicket - discountValue
 
 
-document.getElementById('ticketCost').innerHTML = discountedTicket.toFixed(2) + '&euro;' + ' ' + '<em> Grazie per il tuo acquisto!</em>';
+document.getElementById('ticketCost').innerHTML = discountedTicket.toFixed(2) + '&euro;' + ' ' + 'invece di' + ' ' + euroTicket.toFixed(2) + '&euro;' + ' ' + '<br><br><p class="text-center"> Grazie per il tuo acquisto!</p>';
