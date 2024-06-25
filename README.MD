@@ -9,13 +9,11 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 -Dichiarare una variabile per l'età inizializzando tramite PROMPT chiedendo all'utente di inserire la sua età anagrafica
 -Dichiarare una costante dove il costo del biglietto per ogni km che si vuole percorrere è di 0.21€
 -Dichiarare il costo totale del biglietto in base ai km che vuole percorrere il cliente.
--Dichiarare una variabile per lo sconto da applicare
- -SE l'età dichiarata dal cliente è inferiore di 18 anni applica uno sconto del 20%
- -SE l'età dichiarata dal cliente è maggiore di 65 anni applica uno sconto del 40%
- -ALTRIMENTI non applicare nessuno sconto
+-Dichiarare in una variabile che nessuno ha diritto allo sconto per età
+ -SE l'età dichiarata dal cliente è inferiore di 18 anni applicare uno sconto del 20%
+ -SE l'età dichiarata dal cliente è maggiore di 65 anni applicare uno sconto del 40%
 -Dichiarare una variabile per calcolare il valore dello sconto
-
--Calcolare la differenza tra il prezzo intero del biglietto e il valore dello sconto per ottenere il prezzo scontato del biglietto
+-Dichiarare una variabile calcolando la differenza tra il prezzo intero del biglietto e il valore dello sconto per ottenere il prezzo scontato del biglietto
 
 -Inserire il risultato ottenuto in un contenitore del file HTML
 
