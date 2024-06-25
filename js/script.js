@@ -5,3 +5,6 @@ console.log(age)
 
 const euroKm = 0.21;
 console.log(euroKm)
+
+let euroTicket = euroKm * km;
+console.log(euroTicket)
