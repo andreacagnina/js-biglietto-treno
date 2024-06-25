@@ -27,4 +27,4 @@ let discountValue = euroTicket * discount / 100;
 let discountedTicket = euroTicket - discountValue
 
 
-document.getElementById('ticketCost').innerHTML = discountedTicket.toFixed(2) + '&euro;' + ' ' + 'invece di' + ' ' + euroTicket.toFixed(2) + '&euro;' + ' ' + '<br><br><p class="text-center"> Grazie per il tuo acquisto!</p>';
+document.getElementById('ticketCost').innerHTML = discountedTicket.toFixed(2) + '&euro;' + ' ' + ' e grazie alla nostra promo <em>"Young&Senior"</em> dedicata a Giovani e Anziani hai risparmiato ben' + ' ' + discountValue.toFixed(2) + '&euro;!' + ' ' + '<br><br><p class="text-center text-warning"> Ricorda di esibire un documento di identità valido prima della partenza! Buon Viaggio!</p>';
